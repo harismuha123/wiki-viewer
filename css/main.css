@@ -98,13 +98,6 @@ textarea {
     color: black;
 }
 
-.random {
-    position: absolute;
-    top: 18%;
-    left: 55%;
-    margin: -100px 0 0 -150px;
-}
-
 .wikiPage {
     position: absolute;
     width: 50em;

@@ -17,7 +17,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "GET",
-            url: "https://"+ language +".wikipedia.org/w/api.php?action=opensearch&format=json&search=" + search,
+            url: "https://cors-anywhere.herokuapp.com/https://"+ language +".wikipedia.org/w/api.php?action=opensearch&format=json&search=" + search,
             contentType: "application/json; charset=utf-8",
             async: false,
             dataType: "json",
